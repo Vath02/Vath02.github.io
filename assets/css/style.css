@@ -1,0 +1,129 @@
+.navbar-toggler {
+    text-align: center;
+}
+.nav-link{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.nav-link:hover{
+color: #00BFBA;
+}
+
+#navbarSupportedContent {
+    text-align: center;
+}
+.profile {
+    width: 30%;
+}
+#cvBody {
+    background-color: #b7e0f5;
+
+}
+.title {
+    color : #0b5b84;
+    font-size: 40px;
+
+}
+.colorTitle{
+    color : #0b5b84;
+}
+body{
+    font-size: 17px;
+}
+ul,li{
+    margin-left: 2px;
+}
+#home {
+    font-size: 35px;
+    color : #0b5b84;
+}
+#home2 {
+    font-size: 30px;
+    color : #0b5b84;
+}
+.coordonnees {
+    text-align: center;
+    font-size: 17px;
+}
+.linux {
+    color: #ff7f50;
+    font-size: 15px;
+    text-align: center;
+}
+.html{
+    margin-left: -11px;
+}
+.agile{
+  margin-left: -11px;
+}
+.trello{
+    margin-left: 11px;
+}
+.atom{
+    margin-left: 0px;
+}
+.projet11 {
+
+}
+
+
+
+#experience{
+
+
+}
+#skills {
+
+}
+#carouselExampleSlidesOnly { /* pour le responsive*/
+    width: 80%;
+    max-width: 1000px;
+
+}
+@media (max-width: 600px) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.langages {
+    font-size: 25px;
+
+}
+#trainings {
+
+}
+.trainings {
+
+}
+
+#computerSkills {
+
+}
+#completedProjects {
+
+}
+.completedProjects {
+
+}
+#formations {
+    background-color: #6e9edb;
+}
+span{
+    font-size: 8px;
+}
+.bulle
+{
+    width: 100px;
+    height: 30px;
+    display: block;
+    background-image: url("assets/img/term_logo.png");
+}
+footer {
+    background-color: #FFFFFF;
+    font-size: 16px;
+}
+.copyright {
+    color: black;
+    text-align: center;
+}
