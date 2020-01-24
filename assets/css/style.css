@@ -42,10 +42,60 @@ ul,li{
     font-size: 30px;
     color : #0b5b84;
 }
+.name {
+    text-align: center;
+    font-size: 25px;
+}
 .coordonnees {
     text-align: center;
     font-size: 17px;
 }
+
+.rating a {
+   color: #aaa;
+   text-decoration: none;
+   font-size: 2em;
+   transition: color .4s;
+}
+.rating a:hover,
+.rating a:focus {
+   color: red;
+   cursor: pointer;
+}
+
+#contact {
+  font-size: 14px;
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 2s;
+}
+#contact:hover {
+  font-size: 36px;
+}
+
+
+/*.progress-bar { 
+    width: 300px;
+    height: 24px;
+    padding: 4px;
+    background-color: #191919;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+*/
+/*
+.blue:before { 
+  background: #099;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
+  background: -moz-linear-gradient(top, #099, #006A6B);
+}
+*/
+
+
 .linux {
     color: #ff7f50;
     font-size: 15px;
