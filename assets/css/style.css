@@ -25,6 +25,9 @@
     font-size: 40px;
 
 }
+ul,li {
+    color : #0b5b84;
+}
 .colorTitle{
     color : #0b5b84;
 }
