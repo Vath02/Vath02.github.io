@@ -1,3 +1,9 @@
+/*-----------------------Media querry-----------------------*/
+@media screen and (max-width: 992px) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .navbar-toggler {
     text-align: center;
 }
@@ -75,30 +81,6 @@ ul,li{
 #contact:hover {
   font-size: 36px;
 }
-
-
-/*.progress-bar { 
-    width: 300px;
-    height: 24px;
-    padding: 4px;
-    background-color: #191919;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-}
-*/
-/*
-.blue:before { 
-  background: #099;
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
-  background: -moz-linear-gradient(top, #099, #006A6B);
-}
-*/
-
-
 .linux {
     color: #ff7f50;
     font-size: 15px;
@@ -116,7 +98,6 @@ ul,li{
 .atom{
     margin-left: 0px;
 }
-
 .projet11:hover{
     transform: scale(1.3);
     transition: 0.5s;
@@ -165,52 +146,21 @@ ul,li{
     transform: scale(1.3);
     transition: 0.5s;
 }
-
-#experience{
-
-
-}
-#skills {
-
-}
 #carouselExampleSlidesOnly { /* pour le responsive*/
     width: 80%;
     max-width: 1000px;
-
-}
-@media (max-width: 600px) {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 .langages {
     font-size: 25px;
 
 }
-#trainings {
-
-}
-.trainings {
-
-}
-
-#computerSkills {
-
-}
-#completedProjects {
-
-}
-.completedProjects {
-
-}
 #formations {
     background-color: #6e9edb;
 }
-span{
+span {
     font-size: 8px;
 }
-.bulle
-{
+.bulle {
     width: 100px;
     height: 30px;
     display: block;
