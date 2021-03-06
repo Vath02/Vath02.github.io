@@ -3,21 +3,16 @@
     .profile {
         width: 300%;
     }
-    .html {
-        margin-left: -11px;
-    }
-    .agile {
-        margin-left: -11px;
-    }
-    .trello {
-        margin-left: 11px;
-    }
-    .atom {
-        margin-left: 0px;
-    }
     .imgProject {
         display: block;
         margin: 15px;
+    }
+    .imgCard {
+        display: block;
+        margin: 15px;
+    }
+    .imgCard2 {
+       margin-top: 150px;
     }
 }
 /*-----------------------Bar de navigation-----------------------*/
@@ -32,7 +27,6 @@
 .nav-link:hover {
     color: #00BFBA;
 }
-
 #navbarSupportedContent {
     text-align: center;
 }
@@ -169,5 +163,4 @@ footer {
 }
 #contact {
     background-color: #FFFFFF;
-    margin-left: 0px;
 }
