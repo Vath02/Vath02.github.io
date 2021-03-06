@@ -1,18 +1,16 @@
 /*-----------------------Media querry-----------------------*/
 @media screen and (max-width: 992px) {
     .profile {
-        width: 300%;
+        width: 30%;
+        margin-top: 30px;
     }
     .imgProject {
         display: block;
         margin: 15px;
     }
     .imgCard {
-        display: block;
+        display: none;
         margin: 15px;
-    }
-    .imgCard2 {
-       margin-top: 150px;
     }
 }
 /*-----------------------Bar de navigation-----------------------*/
@@ -101,12 +99,8 @@ ul,li {
     color : #0b5b84;
     margin-left: 2px;
 }
-#home {
+.home {
     font-size: 35px;
-    color : #0b5b84;
-}
-#home2 {
-    font-size: 30px;
     color : #0b5b84;
 }
 .coordonnees {
@@ -114,6 +108,7 @@ ul,li {
     font-size: 17px;
 }
 .rating a {
+    display: none;
    color: #aaa;
    text-decoration: none;
    font-size: 2em;
