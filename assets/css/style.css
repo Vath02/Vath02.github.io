@@ -1,46 +1,110 @@
 /*-----------------------Media querry-----------------------*/
 @media screen and (max-width: 992px) {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    .profile {
+        width: 300%;
+    }
+    .html {
+        margin-left: -11px;
+    }
+    .agile {
+        margin-left: -11px;
+    }
+    .trello {
+        margin-left: 11px;
+    }
+    .atom {
+        margin-left: 0px;
+    }
+    .imgProject {
+        display: block;
+        margin: 15px;
+    }
 }
+/*-----------------------Bar de navigation-----------------------*/
 .navbar-toggler {
     text-align: center;
 }
-.nav-link{
+.nav-link {
     font-size: 16px;
     color: #ffffff;
     font-weight: 700;
 }
-.nav-link:hover{
+.nav-link:hover {
     color: #00BFBA;
 }
 
 #navbarSupportedContent {
     text-align: center;
 }
-.profile {
-    width: 30%;
+/*-----------------------images-----------------------*/
+.projet11:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+.projet12:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+.projet21:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+.projet22:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+.projet32:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+.projet33:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+.projet34:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+.projet41:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+.projet42:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+.projet51:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+.projet52:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+.projet53:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+/*-----------------------body-----------------------*/
+body {
+    font-size: 17px;
 }
 .container {
     background-color: #b7e0f5;
-
 }
 .title {
     color : #0b5b84;
     font-size: 40px;
-
+}
+.colorTitle {
+    color : #0b5b84;
+}
+.name {
+    text-align: center;
+    font-size: 25px;
 }
 ul,li {
     color : #0b5b84;
-}
-.colorTitle{
-    color : #0b5b84;
-}
-body{
-    font-size: 17px;
-}
-ul,li{
     margin-left: 2px;
 }
 #home {
@@ -51,15 +115,10 @@ ul,li{
     font-size: 30px;
     color : #0b5b84;
 }
-.name {
-    text-align: center;
-    font-size: 25px;
-}
 .coordonnees {
     text-align: center;
     font-size: 17px;
 }
-
 .rating a {
    color: #aaa;
    text-decoration: none;
@@ -71,7 +130,6 @@ ul,li{
    color: red;
    cursor: pointer;
 }
-
 #contact {
   font-size: 14px;
   transition-property: font-size;
@@ -86,73 +144,8 @@ ul,li{
     font-size: 15px;
     text-align: center;
 }
-.html{
-    margin-left: -11px;
-}
-.agile{
-    margin-left: -11px;
-}
-.trello{
-    margin-left: 11px;
-}
-.atom{
-    margin-left: 0px;
-}
-.projet11:hover{
-    transform: scale(1.3);
-    transition: 0.5s;
-}
-.projet12:hover{
-    transform: scale(1.3);
-    transition: 0.5s;
-}
-.projet21:hover{
-    transform: scale(1.3);
-    transition: 0.5s;
-}
-.projet22:hover{
-    transform: scale(1.3);
-    transition: 0.5s;
-}
-.projet32:hover{
-    transform: scale(1.3);
-    transition: 0.5s;
-}
-.projet33:hover{
-    transform: scale(1.3);
-    transition: 0.5s;
-}
-.projet34:hover{
-    transform: scale(1.3);
-    transition: 0.5s;
-}
-.projet41:hover{
-    transform: scale(1.3);
-    transition: 0.5s;
-}
-.projet42:hover{
-    transform: scale(1.3);
-    transition: 0.5s;
-}
-.projet51:hover{
-    transform: scale(1.3);
-    transition: 0.5s;
-}
-.projet52:hover{
-    transform: scale(1.3);
-    transition: 0.5s;
-}
-.projet53:hover{
-    transform: scale(1.3);
-    transition: 0.5s;
-}
-#carouselExampleSlidesOnly { /* pour le responsive*/
-    width: 80%;
-    max-width: 1000px;
-}
 .langages {
     font-size: 25px;
-
 }
 #formations {
     background-color: #6e9edb;
@@ -174,7 +167,7 @@ footer {
     color: black;
     text-align: center;
 }
-#contact{
+#contact {
     background-color: #FFFFFF;
     margin-left: 0px;
 }
