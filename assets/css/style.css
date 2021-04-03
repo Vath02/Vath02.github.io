@@ -19,6 +19,66 @@
         font-size: 2em;
         transition: color .4s;
      }
+    .projet11:hover {
+         display: none;
+        transform: scale(1.3);
+        transition: 0.5s;
+    }
+    .projet12:hover {
+        display: none;
+        transform: scale(1.3);
+        transition: 0.5s;
+    }
+    .projet21:hover {
+        display: none;
+        transform: scale(1.3);
+        transition: 0.5s;
+    }
+    .projet22:hover {
+        display: none;
+        transform: scale(1.3);
+        transition: 0.5s;
+    }
+    .projet32:hover {
+        display: none;
+        transform: scale(1.3);
+        transition: 0.5s;
+    }
+    .projet33:hover {
+        display: none;
+        transform: scale(1.3);
+        transition: 0.5s;
+    }
+    .projet34:hover {
+        display: none;
+        transform: scale(1.3);
+        transition: 0.5s;
+    }
+    .projet41:hover {
+        display: none;
+        transform: scale(1.3);
+        transition: 0.5s;
+    }
+    .projet42:hover {
+        display: none;
+        transform: scale(1.3);
+        transition: 0.5s;
+    }
+    .projet51:hover {
+        display: none;
+        transform: scale(1.3);
+        transition: 0.5s;
+    }
+    .projet52:hover {
+        display: none;
+        transform: scale(1.3);
+        transition: 0.5s;
+    }
+    .projet53:hover {
+        display: none;
+        transform: scale(1.3);
+        transition: 0.5s;
+    }
 }
 /*-----------------------Bar de navigation-----------------------*/
 .navbar-toggler {
@@ -107,7 +167,6 @@ ul,li {
     margin-left: 2px;
 }
 .home {
-    font-size: 35px;
     color : #0b5b84;
 }
 .coordonnees {
