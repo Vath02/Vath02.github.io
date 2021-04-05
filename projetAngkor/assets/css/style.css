@@ -1,0 +1,292 @@
+body{
+  display: flex;
+  flex-direction: column;
+  font-family: 'century gothic', calibri, serif;
+  margin: 0px;/*reset des marges pour palier aux marges automatiques des navigateurs*/
+  padding: 0px;
+}
+a:link {color: white;}
+a:visited {color: white;}
+:target{
+  border-top: 230px solid transparent;
+  margin: -230px 0 0;
+  }
+/*reset des marges pour palier aux marges automatiques des navigateurs*/
+nav ul{
+  margin: -30px;
+  padding: 0px;
+}
+/*extention de la barre de menu à toute la largeur de la page*/
+nav{
+  position: fixed;   /*pour garder le menu visible qud on defile la page*/
+  z-index: 900;
+  width: 100%;
+  background-color: #424558;
+}
+/*enlever les puces de notre liste menu et les aligner horizontalement*/
+nav li{
+  list-style-type:  none;
+  float: left;
+  font-family: 'Cookie', cursive;
+}
+/*Mise en forme des differents elements de liens de la barre de menus*/
+nav a{
+  display: inline-block; /*pour les mettre cote à cote*/
+  text-decoration: none; /* on retire les soulignement par defaut*/
+  padding: 40px 30px; /*pour centrer les mots*/
+  color: white;
+  font-size: 35px;
+}
+.table{
+  display: table; /*pour rendre une consistance et une hauteur à notre élément qui est en float*/
+  margin: 0 auto; /* pour centrer les éléments de notre menu*/
+  height: 80px;
+}
+.table img{
+  margin-left: 320px;
+  padding-top: 40px;
+  height: 72px;
+}
+.nav a:hover, .homeNav:hover, .speNav:hover, .wineNav:hover, .goNav:hover, .resNav:hover, .bleu, .vert, .orange{
+  border-top : 45px solid rgba(000, 112, 192, 1);
+  background-color: rgba(000, 112, 192, 1);
+  color: #e00025;
+}
+/*losqu'on passe la souris sur un menu, l'effet de la marge de 5px, decale vers le bas le texte du menu. on remet de nouvelles marges en tenant compte de cela*/
+nav li:hover a{
+  padding: 0px 30px;
+  color: #e00025;
+  font-weight: bold;
+  font-size: 40px;
+}
+article{
+  position: relative;
+  top: 80px;
+  background-color: #424558;
+}
+/*--------------------------------------------Style de la section 1*/
+/*Style du fond*/
+.homeSection{
+  height: 800px;
+  background-image: url("../img/s5Backgrd3.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #ffbf00;
+  font-weight: bold;
+}
+/*position des boites*/
+.homeSection div{
+  display: inline-block;
+  float:left;
+}
+.restauName{
+  width: 500px;
+  padding-left: 10%;
+  padding-top: 5%
+}
+.restauName p{
+font-family: 'Vollkorn', serif;
+font-size: 20px;
+font-style:italic;
+text-align: justify;
+}
+h1{
+  font-family: 'Vollkorn', serif;
+  font-size: 45px;
+  text-align: center;
+}
+.restauName img{
+  float: right;
+}
+/* style du carroussel*/
+@keyframes sliding {
+  0% { left: 0%; }
+  50% { left: -100%; }
+  100%{left: 0%;}
+}
+.slider figure {
+  position: relative;
+  width: 200%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: left;
+  animation: 15s sliding infinite;
+}
+.slider figure img {
+  width: 50%; height: auto; float: left;
+}
+.slider {
+  border: 5px solid white; margin-left: 5%; margin-top: 5%; width: 40%;  overflow: hidden;
+}
+/*---------------------------------------------------section 2 */
+.specialitiesSection h2{
+  font-family: 'Vollkorn', serif;
+  font-size: 45px;
+  text-align: center;
+}
+.specialitiesSection{
+  font-size: 20px;
+  font-weight: bold;
+  height: 800px;
+  color: #ffbf00;
+  background-image: url("../img/s2Backgrd.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.specialitiesSection ul{
+  max-width: 100%;
+  list-style-type: none; /*Pour enlever liste a puces*/
+  display: flex; /*Mettre en ligne*/
+  justify-content: space-around;
+}
+.specialitiesSection ol{
+  list-style-type: none; /*enlever les numeros des listes*/
+}
+.specialitiesSection a{  /*Bouton download PDF*/
+  margin-top: 85px;
+  margin-left: 40%;
+  display: flex;
+  justify-content: center; /*Centrer le bouton*/
+  padding:6px 70px 6px 70px;
+  font:bold 13px Arial; /*type police*/
+  background:#f5f5f5; /*couleur bouton*/
+  color:#555; /*couleur texte bouton*/
+  border-radius:2px;
+  width:200px;
+  border:1px solid #ccc;
+  box-shadow:1px 1px 3px #999; /*ombres*/
+}
+/* -----------------------------------------------------section3*/
+.wineSection
+/*fond d'écran et couleur de police */
+{
+  height: 955px;
+  background-image: url("../img/s3Backgrd2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #ffbf00;
+  font-weight: bold;
+  font-size: 20px;
+}
+.wineSection h2{
+  font-family: 'Vollkorn', serif;
+  font-size: 45px;
+  text-align: center;
+}
+/*taille des colonnes */
+.column1{
+  width: 800px;
+}
+.column2{
+  width: 400px;
+}
+/*centrage du texte ou contenu */
+table, .wineSection h3{
+  margin-left: 235px;
+}
+.guide{
+  margin-left: 235px;
+}
+.suggest{
+  font-family: 'Vollkorn', serif;
+  font-style: italic;
+  list-style: none;
+}
+/*----------------------------------------------------section 4*/
+ .goSection h2{
+  font-family: 'Vollkorn', serif;
+  font-size: 45px;
+  text-align: center;
+}
+.goSection p{
+  list-style-type: none; /*Puces des listes enlevée*/
+  margin-left: 20px;
+}
+.goSection iframe{
+  padding-left: 100px;
+  max-width: 600px; /*taille de la map*/
+  max-height: 518px;
+  display: inline-block;
+}
+.goSection{
+  flex-direction: row;
+  height: 700px;
+  position:relative;
+  color: #ffbf00; /*Image de fond*/
+  background-image: url("../img/s4Backgrd.jpg");
+  background-size: cover;
+  font-weight: bold; /*TEXTE EN GRAS*/
+}
+.case{
+  display: flex;
+}
+.section4{
+  width: 350px;
+  justify-content: space-around;
+  display: inline-block;
+}
+.section4 ul{
+  float: right; /*Les reseaux sociaux a droite*/
+}
+.secti0n p{/*Pour aligner Nom restaurant*/
+  margin-left: 8px;/*Et Horaires */
+}
+.secti0n{
+  padding-left: 100px;
+  font-size: 25px;
+  font-weight: bold;
+  width:500px;
+  display: inline-block;
+}
+.secti0n ul{
+  list-style-type: none;
+}
+.section4 li{
+  float: left;
+  list-style-type: none; /*Texte des reseaux*/
+  font-size: 24px;
+}
+/*------------------------------------------------------Section 5*/
+.reservationSection h2{
+  font-family: 'Vollkorn', serif;
+  font-size: 45px;
+  text-align: center;
+}
+.reservationSection{
+height: 800px;
+background-image: url("../img/wallpaperReservation.png");
+background-size: 100%;
+font-size: 25px;
+color: #ffbf00;
+font-weight: bold;
+}
+.reservationSection fieldset{
+  width: 40%;
+}
+#reserve{
+  display: inline-block;
+  float: left;
+  border: 5px solid white;
+}
+.instruction{
+  font-family: 'Vollkorn', serif;
+  font-style: italic;
+  width: 40%;
+  display: inline-block;
+  float:right;
+  text-align: justify;
+  padding-right: 10%;
+}
+.instruction img{
+  margin-left: 40%;
+}
+/*font-family: 'Khmer', cursive;*/
+
+/*------------------------------------------------------FOOTER*/
+footer{
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
