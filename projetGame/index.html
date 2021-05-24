@@ -1,0 +1,2320 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name= "viewport" content="width=device-width, initial-scale=1" />
+  <link href="assets/library/bootstrap-4.3.1-dist/css/Journal/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <title>Collector's Games</title>
+</head>
+<body>
+  <section class="container">
+    <header>
+      <div class="row">
+        <div class="col-lg-12">
+          <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="7000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img id="pic1" class="d-block w-100 img-responsive" src="assets/img/Photo1.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img id="pic2" class="d-block w-100 img-responsive" src="assets/img/Photo2.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img id="pic3" class="d-block w-100 img-responsive" src="assets/img/Photo3.jpg" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav id="nav" class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <a id="name" class="navbar-brand ml-2" href="#carousel"><img src="assets/img/Logo.png" />Collector's Games</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a id="xbox" class="nav-link text-primary ml-3" href="#banner1">XBOX <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a id="PS4" class="nav-link text-primary ml-3" href="#banner1">PS4</a>
+          </li>
+          <li class="nav-item">
+            <a id="switch" class="nav-link text-primary ml-3" href="#banner1">SWICTH</a>
+          </li>
+          <li class="nav-item">
+            <a id="pc" class="nav-link text-primary ml-3" href="#banner1">PC</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input id="Search" class="form-control mr-sm-3" type="search" placeholder="Search" aria-label="Search">
+          <a class="mr-2" href="#"><img src="assets/img/Caddy.png" /></a><a id="mainCart" class="mr-5 text-white" href="#" data-toggle="modal" data-target="#cart">Mon Panier</a>
+          <button class="btn btn-outline-primary text-white my-2 my-sm-0" type="submit">Mon Compte</button>
+        </form>
+      </div>
+    </nav>
+    <!-- WARNING: Debut de la MODALE -->
+    <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="Label" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <!-- IDEA: modal HEADER -->
+          <div class="modal-header">
+            <h3 class="modal-title border border-dark" id="Label">Mon panier</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <!-- IDEA: modal body -->
+          <div class="row justify-content-around modal-body">
+            <!-- WARNING: EN TETE -->
+            <div class="row col-12">
+              <h4 class=" rounded col-md-8" ><span > Article (s) </span></h4>
+              <h4 class="rounded col-md-2 text-right"><span>Qté</span></h4>
+              <h4 class="rounded col-md-2"><span>Prix</span></h4>
+            </div>
+            <!-- WARNING: DEBUT DE LA LISTE DES ARTICLES -->
+            <!-- IDEA: titre, reference et prix unitaire-->
+          </div> <!--fin body-->
+          <!-- IDEA: modal FOOTER -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info cartReset" data-dismiss="modal">Vider le panier</button>
+            <button type="button" class="btn btn-secondary cartClose" data-dismiss="modal">Fermer</button>
+            <button type="button" class="btn btn-primary command">Commander</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="banner1" class="row mt-5">
+      <div class="col-lg-12">
+        <img src="assets/img/Banner1.jpg" alt="XBODoomEternal.jpg" style="width:100%" />
+      </div>
+    </div>
+    <div id="present" class="jumbotron mt-5">
+      <h1 class="display text-center mb-4">Bienvenue dans l'univers des collectors de jeux vidéos</h1>
+      <p class="lead mt-3">Notre projet s’appuie sur notre culture, nos points forts, notre identité. Nous allons apporter la meilleure sélection ainsi que des exclusivités de produits dérivés à tous les passionnés.</p>
+      <hr class="my-4">
+      <p>Here we go !</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Enjoy !</a>
+      </p>
+    </div>
+    <hr class="mt-5">
+    <div id="order" class=" row mt-4">
+      <div class="col-lg-12 text-center d-flex justify-content-center mt-4">
+        <h2>Précommandes du mois de Décembre</h2>
+        </div>
+      </div>
+      <div id="car1" class="carousel slide mt-4" data-interval="7000" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPC001.jpg" alt="1 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPC004.jpg" alt="2 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPC007.jpg" alt="3 slide"></div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPS4001.jpg" alt="4 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPS4002.jpg" alt="5 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPS4007.jpg" alt="6 slide"></div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#car1" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#car1" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div id="car2" class="carousel slide mt-4" data-interval="7000" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarSW003.jpg" alt="7 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarSW007.jpg" alt="8 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarSW008.jpg" alt="9 slide"></div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarXBO002.jpg" alt="7 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarXBO007.jpg"  alt="8 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarXBO008.jpg"  alt="9 slide"></div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#car2" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#car2" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div id ="orderBtn" class="row mt-4">
+        <div class="col-lg-12 d-flex justify-content-end">
+          <a class="btn btn-outline-primary" href="#" role="button">Voir toutes les précommandes</a>
+        </div>
+      </div>
+      <hr id="line1" class="mt-5">
+      <div id="bestSold" class="row">
+        <div class="col-lg-12 mt-4">
+          <h2 class="text-center">Meilleures Ventes</h2>
+        </div>
+      </div>
+      <div id="bestSoldImg" class="row">
+        <div class="col col-sm-2 mt-4">
+          <span class="border rounded-top bg-danger text-white py-1 px-2">Vente #1</span>
+          <a href="#"><img id="soldPic1" class="mt-1" src="assets/img/BestSold/Sold1.jpg" alt="XBODoomEternal.jpg" style="width:100%" /></a>
+          <a href="#" class="badge badge-primary py-2 px-2 ml-4 mt-2">Ajouter au panier</a>
+        </div>
+        <div class="col col-sm-2 mt-4">
+          <span class="border rounded-top bg-secondary text-white py-1 px-2">Vente #2</span>
+          <a href="#"><img id="soldPic2" class="mt-1" src="assets/img/BestSold/Sold2.jpg" alt="XBODoomEternal.jpg" style="width:100%" /></a>
+          <a href="#" class="badge badge-primary py-2 px-2 ml-4 mt-2">Ajouter au panier</a>
+        </div>
+        <div class="col col-sm-2 mt-4">
+          <span class="border rounded-top bg-info text-white py-1 px-2">Vente #3</span>
+          <a href="#"><img id="soldPic3" class="mt-1" src="assets/img/BestSold/Sold3.jpg" alt="XBODoomEternal.jpg" style="width:100%" /></a>
+          <a href="#" class="badge badge-primary py-2 px-2 ml-4 mt-2">Ajouter au panier</a>
+        </div>
+        <div class="col col-sm-2 mt-4">
+          <span class="border rounded-top bg-danger text-white py-1 px-2">&#10084; #1</span>
+          <a href="#"><img id="soldPic4" class="mt-1" src="assets/img/BestSold/Sold4.jpg" alt="XBODoomEternal.jpg" style="width:100%" /></a>
+          <a href="#" class="badge badge-primary py-2 px-2 ml-4 mt-2">Ajouter au panier</a>
+        </div>
+        <div class="col col-sm-2 mt-4">
+          <span class="border rounded-top bg-secondary text-white py-1 px-2">&#10084; #2</span>
+          <a href="#"><img id="soldPic5" class="mt-1" src="assets/img/BestSold/Sold5.jpg" alt="XBODoomEternal.jpg" style="width:100%" /></a>
+          <a href="#" class="badge badge-primary py-2 px-2 ml-4 mt-2">Ajouter au panier</a>
+        </div>
+        <div class="col col-sm-2 mt-4">
+          <span class="border rounded-top bg-info text-white py-1 px-2">&#10084; #3</span>
+          <a href="#"><img id="soldPic6" class="mt-1" src="assets/img/BestSold/Sold6.jpg" alt="XBODoomEternal.jpg" style="width:100%" /></a>
+          <a href="#" class="badge badge-primary py-2 px-2 ml-4 mt-2">Ajouter au panier</a>
+        </div>
+      </div>
+      <div id ="bestSoldBtn" class="row mt-4">
+        <div class="col-lg-12 d-flex justify-content-end">
+          <a class="btn btn-outline-primary" href="#" role="button">Voir toutes les meilleures ventes</a>
+        </div>
+      </div>
+      <div class="row">
+        <div id="navBarGenre" class="col-ls-3 col-md-3 mt-5">
+          <div class="list-group bg-white rounded pt-2" id="list-tab" role="tablist">
+            <h3 class="mb-3 text-center">Catégories</h3>
+            <a class="list-group-item list-group-item-action" id="aventure" data-toggle="list" href="#aventure" role="tab" aria-controls="aventure">Aventure
+            </a>
+            <a class="list-group-item list-group-item-action" id="action" data-toggle="list" href="#action" role="tab" aria-controls="action">Action
+            </a>
+            <a class="list-group-item list-group-item-action" id="rpg" data-toggle="list" href="#rpg" role="tab" aria-controls="rpg">RPG
+            </a>
+            <a class="list-group-item list-group-item-action" id="combat" data-toggle="list" href="#combat" role="tab" aria-controls="combat">Combat
+            </a>
+            <a class="list-group-item list-group-item-action" id="course" data-toggle="list" href="#course" role="tab" aria-controls="course">Course
+            </a>
+            <a class="list-group-item list-group-item-action" id="strat" data-toggle="list" href="#strat" role="tab" aria-controls="strat">Stratégie
+            </a>
+            <a class="list-group-item list-group-item-action" id="fps" data-toggle="list" href="#fps" role="tab" aria-controls="fps">FPS
+            </a>
+            <a class="list-group-item list-group-item-action" id="stealth" data-toggle="list" href="#stealth" role="tab" aria-controls="stealth">Infiltration
+            </a>
+          </div>
+
+          <div class="col-9">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="game" role="tabpanel" aria-labelledby="game"></div>
+              <div class="tab-pane fade" id="aventure" role="tabpanel" aria-labelledby="aventure"></div>
+              <div class="tab-pane fade" id="action" role="tabpanel" aria-labelledby="action"></div>
+              <div class="tab-pane fade" id="rpg" role="tabpanel" aria-labelledby="rpg"></div>
+              <div class="tab-pane fade" id="combat" role="tabpanel" aria-labelledby="combat"></div>
+              <div class="tab-pane fade" id="course" role="tabpanel" aria-labelledby="course"></div>
+              <div class="tab-pane fade" id="strat" role="tabpanel" aria-labelledby="strat"></div>
+              <div class="tab-pane fade" id="stealth" role="tabpanel" aria-labelledby="stealth"></div>
+            </div>
+          </div>
+          <h4 class="mt-4 text-center">Rejoins-nous sur :</h4>
+          <img class="mt-3 ml-3" src="assets/img/Twitter.svg" alt="Twitter.jpg" />
+          <img class="mt-3 ml-3 rounded-circle" src="assets/img/Instagram.png" alt="Instagram.jpg" />
+          <img class="mt-3 ml-3 rounded-circle" src="assets/img/Facebook.png" alt="Facebook.jpg" />
+          <img class="mt-3 ml-3 rounded-circle" src="assets/img/Twitch.png" alt="Twitch.jpg" />
+        </div>
+        <!-- WARNING: 1e ARTICLE : XBOX ONE -->
+        <article id="xboxGame" class="col-9 mt-5">
+          <div class="row">
+            <div id="xb1" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalX1" href="#modalX1">
+                  <img src="assets/img/Consoles/XBO001.jpg" alt="XBODoomEternal.jpg" style="width:100%"
+                  title="Découvrez le mélange ultime de vitesse et de puissance en vous frayant un chemin
+                  entre les dimensions et en vous plongeant dans des combats à la première personne bourrés d'action." />
+                </a>
+                <h5 class="mt-1">Doom Eternal</br>Edition Collector</h5>
+                <span class="font-italic">Action </span>
+                <span>/ Ref : XBO001</span>
+                <span>- 224,90 €</span>
+                <button dataImg="VXBO001" dataTitle="Doom Eternal" dataRef="XBO001" dataPrice="224.90"
+                type="button" class="btn buy btn-success mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="xb2" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalX2" href="#modalX2">
+                  <img src="assets/img/Consoles/XBO002.jpg" alt="XBOGear5.jpg" style="width:100%"
+                  title="A l’approche d’une guerre totale, Kait Diaz se détache pour divulguer
+                  sa connexion avec l’ennemi et découvrir les vrais dangers de Sera elle-même." />
+                </a>
+                <h5 class="mt-1">Gear 5 </br>Edition Collector Jack Drone</h5>
+                <span class="font-italic">Action </span>
+                <span>/ Ref : XBO002</span>
+                <span>- 269.90 €</span>
+                <button dataImg="VXBO002" dataTitle="Gear 5" dataRef="XBO002" dataPrice="269.90"
+                type="button" class="btn buy btn-success mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="xb3" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalX3" href="#modalX3">
+                  <img src="assets/img/Consoles/XBO003.jpg" alt="XBOHitman2.jpg" style="width:100%"
+                  title="Traquez vos cibles à travers le monde entier, et découvrez des environnements
+                  extraordinaires dans HITMAN 2™. Que ce soit des rues ensoleillées ou des forêts
+                  tropicales obscures et pleines de dangers, aucun lieu n’est à l’abri de l’assassin
+                  le plus mortel qui soit : l’Agent 47." />
+                </a>
+                <h5 class="mt-1">Hitman 2</br>Edition Collector</h5>
+                <span class="font-italic">Infiltration </span>
+                <span>/ Ref : XBO003</span>
+                <span>- 109,90 €</span>
+                <button dataImg="VXBO003" dataTitle="Hitman 2" dataRef="XBO003" dataPrice="109.90"
+                type="button" class="btn buy btn-success mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+          </div>
+          <!-- WARNING: 2e ligne -->
+          <div class="row">
+            <div id="xb4" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalX4" href="#modalX4">
+                  <img src="assets/img/Consoles/XBO004.jpg" alt="XBOACOdyssey.jpg" style="width:100%"
+                  title="Écrivez votre propre odyssée et vivez d’incroyables aventures dans un monde
+                  où importe chacun de vos choix. Condamné à mort par votre propre famille,
+                  vous êtes un mercenaire et vous embarquez pour un voyage épique, où vous passerez
+                  du statut de paria à celui de légende, et lèverez le voile sur les secrets de votre passé." />
+                </a>
+                <h5 class="mt-1">Assassin's creed Odyssey </br>Edition Collector Medusa</h5>
+                <span class="font-italic">Aventure </span>
+                <span>/ Ref : XBO004</span>
+                <span>- 89,90 €</span>
+                <button dataImg="VXBO004" dataTitle="Assassin's creed Odyssey" dataRef="XBO004" dataPrice="89.90"
+                type="button" class="btn buy btn-success mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="xb5" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalX5" href="#modalX5">
+                  <img src="assets/img/Consoles/XBO005.jpg" alt="XBOFallout76.jpg" style="width:100%"
+                  title="Le jeu où tous les humains survivants sont des personnes réelles.
+                  Pour survivre, les joueurs devront coopérer. Ou choisir de ne pas le faire.
+                  Dans le contexte d’une menace nucléaire, ils découvriront le monde le plus étendu
+                  et le plus vivant jamais créé dans l’univers mythique de Fallout." />
+                </a>
+                <h5 class="mt-1">Fallout 76 </br>Edition Collector Power Armor</h5>
+                <span class="font-italic">Aventure </span>
+                <span>/ Ref : XBO005</span>
+                <span>- 99,90 €</span>
+                <button dataImg="VXBO005" dataTitle="Fallout 76" dataRef="XBO005" dataPrice="99.90"
+                type="button" class="btn buy btn-success mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="xb6" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalX6" href="#modalX6">
+                  <img src="assets/img/Consoles/XBO006.jpg" alt="XBOMortalKombat11.jpg" style="width:100%"
+                  title="Mortal Kombat est de retour dans un nouvel épisode de la série emblématique,
+                  plus explosif que jamais ! Découvrez les toutes nouvelles variantes de personnages
+                  qui vous permettront de modifier vos Kombattants comme jamais auparavant" />
+                </a>
+                <h5 class="mt-1">Mortal Kombat 11 </br>Edition Kollector</h5>
+                <span class="font-italic">Combat </span>
+                <span>/ Ref : XBO006</span>
+                <span>- 199,90 €</span>
+                <button dataImg="VXBO006" dataTitle="Mortal Kombat 11" dataRef="XBO006" dataPrice="199.90"
+                type="button" class="btn buy btn-success mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+          </div>
+          <!-- WARNING: 3e ligne -->
+          <div class="row">
+            <div id="xb7" class="col-lg-4 mt-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalX7" href="#modalX7">
+                  <img src="assets/img/Consoles/XBO007.jpg" alt="XBOCODMW.jpg" style="width:100%"
+                  title="Préparez-vous à plonger dans le noir avec l'Édition Dark de Modern Warfare !
+                  L'Édition Dark contient des lunettes de vision nocturne qui vous permettront
+                  de voir jusqu'à 20 mètres dans le noir le plus complet. L'équipe d'Infinity Ward a
+                  équipé ces lunettes ajustables, inspirées par le modèle en jeu, d'autocollants
+                  et de détails personnalisés." />
+                </a>
+                <h5 class="mt-1">Call of Duty Modern Warfare </br>Edition Dark</h5>
+                <span class="font-italic">FPS </span>
+                <span>/ Ref : XBO007</span>
+                <span>- 299,90 €</span>
+                <button dataImg="VXBO007" dataTitle="Call of Duty Modern Warfare" dataRef="XBO007" dataPrice="299.90"
+                type="button" class="btn buy btn-success mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="xb8" class="col-lg-4 mt-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalX8" href="#modalX8">
+                  <img src="assets/img/Consoles/XBO008.jpg" alt="XBOHalo5.jpg" style="width:100%"
+                  title="Quand le plus grand héros de l’histoire de l’humanité est porté disparu,
+                  un nouveau Spartan surgit de l’ombre. Sa mission : partir à la recherche du
+                  Master Chief et venir à bout d’une grande menace qui pèse sur l’ensemble de la galaxie." />
+                </a>
+                <h5 class="mt-1">Halo 5 Guardians </br>Edition Collector limitée</h5>
+                <span class="font-italic">FPS </span>
+                <span>/ Ref : XBO008</span>
+                <span>- 69,90 €</span>
+                <button dataImg="VXBO008" dataTitle="Halo 5 Guardians" dataRef="XBO008" dataPrice="69.90"
+                type="button" class="btn buy btn-success mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="xb9" class="col-lg-4 mt-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalX9" href="#modalX9">
+                  <img src="assets/img/Consoles/XBO009.jpg" alt="XBOWorldOfTanks.jpg" style="width:100%"
+                  title="Le MMO culte dédié aux engins blindés a conquis plus de 100 millions de joueurs
+                  (plus de 11 millions de consoles) partout dans le monde" />
+                </a>
+                <h5 class="mt-1">World of Tanks </br>Edition Collector</h5>
+                <span class="font-italic">Stratégie </span>
+                <span>/ Ref : XBO009</span>
+                <span>- 99,50 €</span>
+                <button dataImg="VXBO009" dataTitle="World of Tanks" dataRef="XBO009" dataPrice="99.50"
+                type="button" class="btn buy btn-success mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+          </div>
+          <div id="modalX1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalX1Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalX1Label">Doom Eternal</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Découvrez le mélange ultime de vitesse et de puissance en vous frayant un chemin entre les dimensions et en vous plongeant dans des combats à la première personne bourrés d'action.</p>
+                          <a class="mt-5" href="assets/img/Consoles/XBO001.jpg" target="_blank"><img src="assets/img/Consoles/XBO001.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Bethesda Softworks</li>
+                            <li>13 mai 2020</li>
+                            <li>+18 ans</li>
+                            <li>Action</li>
+                            <li>Futuriste | Extraterrestres</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalX2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalX2Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalX2Label">Gears 5</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Gears 5 est un jeu TPS/Action qui reprend les principes de la franchise Gears of War. Kait Diaz sera l'héroïne de cette aventure et semble prête à comprendre ce qui lui arrive, quitte à désobéir aux ordres de ses supérieurs et à abandonner son unité.</p>
+                          <a class="mt-5" href="assets/img/Consoles/XBO002.jpg" target="_blank"><img src="assets/img/Consoles/XBO002.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Xbox Game Studios</li>
+                            <li>09 sept. 2020</li>
+                            <li>+18 ans</li>
+                            <li>Action</li>
+                            <li>Futuriste | Extraterrestres</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalX3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalX3Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalX3Label">Hitman 2</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Hitman 2 est un jeu d'infiltration développé par IO Interactive. Suite du premier opus des aventures du célèbre tueur à gage, celui-ci revient avec de nouveaux contrats sous le bras. De l'infiltration, des assassinats et autres joyeusetés, entrez dans le quotidien de ce personnage aussi talentueux que fictif.</p>
+                          <a class="mt-5" href="assets/img/Consoles/XBO003.jpg" target="_blank"><img src="assets/img/Consoles/XBO003.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Square Enix</li>
+                            <li>13 novembre 2020</li>
+                            <li>+18 ans</li>
+                            <li>Infiltration</li>
+                            <li>Discrétion | Agent secret</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalX4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalX4Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalX4Label">Assassin's creed Odyssey</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Assassin's Creed Odyssey est une nouvelle entrée dans la franchise qui se déroule avant Assassin's Creed Origins. il sera possible d'y incarner le descendant de Leonidas de Sparte, garçon ou fille, dans la Grèce Antique. Au programme des nouveautés, un nouveau système de combat, des batailles rangées et un côté RPG encore plus poussé avec un système de dialogue à choix multiples.</p>
+                          <a class="mt-5" href="assets/img/Consoles/XBO004.jpg" target="_blank"><img src="assets/img/Consoles/XBO004.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Ubisoft</li>
+                            <li>05 octobre 2020</li>
+                            <li>+18 ans</li>
+                            <li>Action RPG</li>
+                            <li>Antiquité</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalX5" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalX5Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalX5Label">Fallout 76</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Nouvelle entrée dans la série Fallout, ce Fallout 76 se présente comme un jeu multijoueur de survie. On y incarnera un habitant de l'abris 76 a peine 25 ans après l'holocauste nucléaire, qui a pour tâche de rebâtir le monde pour la population des autres abris.</p>
+                          <a class="mt-5" href="assets/img/Consoles/XBO005.jpg" target="_blank"><img src="assets/img/Consoles/XBO005.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Bethesda Softworks</li>
+                            <li>14 novembre 2019</li>
+                            <li>+18 ans</li>
+                            <li>Aventure</li>
+                            <li>Post apocalypse | Monstre</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalX6" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalX6Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalX6Label">Mortal Kombat XI</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Mortal Kombat 11, développé par NetherRealm Studios et édité par Warner Bros. Games, est le dernier venu de la saga des jeux de combat Mortal Kombat. Ce dernier prévoit une customisation poussée pour créer de nombreuses variations de Kombattants.</p>
+                          <a class="mt-5" href="assets/img/Consoles/XBO006.jpg" target="_blank"><img src="assets/img/Consoles/XBO006.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>NetherRealm Studios</li>
+                            <li>23 avril 2020</li>
+                            <li>+18 ans</li>
+                            <li>Combat</li>
+                            <li>Gore | Sombre</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalX7" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalX7Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalX7Label">Call of Duty Modern warfare</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Call of Duty Modern Warfare est un jeu de tir à la première personne. Le joueur incarne tour à tour un soldat du SAS ou un combattant de la liberté d'un pays du Proche-Orient. Le jeu adopte un ton sombre et mature, pour plus de réalisme.</p>
+                          <a class="mt-5" href="assets/img/Consoles/XBO007.jpg" target="_blank"><img src="assets/img/Consoles/XBO007.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Infinity Ward | Activision</li>
+                            <li>25 octobre 2020</li>
+                            <li>+18 ans</li>
+                            <li>FPS</li>
+                            <li>Guerre | Sombre</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalX8" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalX8Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalX8Label">Halo 5 Guardians</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Halo 5: Guardians sur Xbox One est un FPS mettant en scène les aventures du Master Chief et d'un nouveau personnage, le Spartan Jameson Locke. Le jeu dispose également d'une importante partie multijoueur et reprend les modes de jeu connus de la série, mais compte également deux nouveautés, la Warzone et le mode Elimination. </p>
+                          <a class="mt-5" href="assets/img/Consoles/XBO008.jpg" target="_blank"><img src="assets/img/Consoles/XBO008.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>343 Industries | Microsofts</li>
+                            <li>27 octobre 2020</li>
+                            <li>+18 ans</li>
+                            <li>FPS</li>
+                            <li>Science-Fiction | Espace</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalX9" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalX9Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalX9Label">World of tanks</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Jeu de stratégie et de combat, World of Tanks vous place dans la carlingue d'un tank. Aux commandes de votre char, vous affrontez des joueurs dans des parties en 15 contre 15 quelque peu mouvementées. Plus de 60 véhicules sont disponibles, allant du char léger aux chasseurs de chars et calqués sur des modèles soviétiques, étatsuniens et même allemands.</p>
+                          <a class="mt-5" href="assets/img/Consoles/XBO009.jpg" target="_blank"><img src="assets/img/Consoles/XBO009.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Wargaming.net</li>
+                            <li>13 avr. 2020</li>
+                            <li>+7 ans</li>
+                            <li>Stratégie</li>
+                            <li>Guerre | Tank</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- WARNING: 2e ARTICLE : PS4 -->
+        <article id="ps4Game" class="col-9 mt-5">
+          <div class="row">
+            <div id="ps1" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalPS1" href="#modalPS1">
+                  <img src="assets/img/Consoles/PS4001.jpg" alt="PS4TheLastOfUs2.jpg" style="width:100%"
+                  title="Cinq ans après leur voyage périlleux à travers une Amérique ravagée par une pandémie,
+                  Ellie et Joel ont trouvé refuge à Jackson, dans le Wyoming." />
+                </a>
+                <h5 class="mt-1">The Last Of Us Part II </br>Edition Collector</h5>
+                <span class="font-italic">Aventure </span>
+                <span>/ Ref : PS4001</span>
+                <span>- 189,90 €</span>
+                <button dataImg="VPS4001" dataTitle="The Last Of Us Part II" dataRef="PS4001" dataPrice="189.90"
+                type="button" class="btn buy btn-info mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="ps2" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalPS2" href="#modalPS2">
+                  <img src="assets/img/Consoles/PS4002.jpg" alt="PS4DeathStranding.jpg" style="width:100%"
+                  title="Le légendaire créateur de jeu vidéo Hideo Kojima revient avec un nouveau jeu d'action-aventure
+                  en monde ouvert unique en son genre sur PlayStation 4, avec Norman Reedus, Mads Mikkelsen,
+                  Léa Seydoux et Lindsay Wagner." />
+                </a>
+                <h5 class="mt-1">Death Stranding </br>Edition Collector</h5>
+                <span class="font-italic">Aventure </span>
+                <span>/ Ref : PS4002</span>
+                <span>- 199,90 €</span>
+                <button dataImg="VPS4002" dataTitle="Death Stranding" dataRef="PS4002" dataPrice="199.90"
+                type="button" class="btn buy btn-info mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="ps3" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalPS3" href="#modalPS3">
+                  <img src="assets/img/Consoles/PS4003.jpg" alt="PS4ConanExiles.jpg" style="width:100%"
+                  title="Vous êtes un exilé, condamné à passer le restant de vos jours sur une terre
+                  barbare où les faibles se font écraser sans pitié et où seuls les forts peuvent
+                  espérer s'en sortir." />
+                </a>
+                <h5 class="mt-1">Conan Exiles </br>Edition Collector limitée</h5>
+                <span class="font-italic">Aventure </span>
+                <span>/ Ref : PS4006</span>
+                <span>- 69,90 €</span>
+                <button dataImg="VPS4003" dataTitle="Conan Exiles" dataRef="PS4003" dataPrice="69.90"
+                type="button" class="btn buy btn-info mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+          </div>
+          <!-- WARNING: 2e ligne -->
+          <div class="row">
+            <div id="ps4" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalPS4" href="#modalPS4">
+                  <img src="assets/img/Consoles/PS4004.jpg" alt="PS4Yakusa6.jpg" style="width:100%"
+                  title="Dans Yakuza 6, Kazuma Kiryu découvrira jusqu'à où certains sont prêts à
+                  aller pour leur famille, que les liens soient de sang ou d'alliance, tout en
+                  enquêtant sur une série d événements mystérieux mettant en jeu ses proches" />
+                </a>
+                <h5 class="mt-1">Yakuza 6: The song of life <br>Edition premium After hours</h5>
+                <span class="font-italic">Action </span>
+                <span>/ Ref : PS4004</span>
+                <span>- 79,90 €</span>
+                <button dataImg="VPS4004" dataTitle="Yakuza 6: The song of life" dataRef="PS4004" dataPrice="79.90"
+                type="button" class="btn buy btn-info mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="ps5" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalPS5" href="#modalPS5">
+                  <img src="assets/img/Consoles/PS4005.jpg" alt="PS4GodOfWar.jpg" style="width:100%"
+                  title="Ayant laissé derrière lui sa vengeance contre les Dieux de l'Olympe, Kratos
+                  vit désormais dans le royaume des divinités et des monstres nordiques." />
+                </a>
+                <h5 class="mt-1">God Of War </br>Edition Collector</h5>
+                <span class="font-italic">Action </span>
+                <span>/ Ref : PS4005</span>
+                <span>- 99,90 €</span>
+                <button dataImg="VPS4005" dataTitle="God Of War" dataRef="PS4005" dataPrice="99.90"
+                type="button" class="btn buy btn-info mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="ps6" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalPS6" href="#modalPS6">
+                  <img src="assets/img/Consoles/PS4009.jpg" alt="PS4ZombieArmy4.jpg" style="width:100%"
+                  title="Les Hordes d’Hitler sont de retour pour toujours plus dans ce jeu de tir à vous
+                  glacer les sangs par les créateurs de Sniper Elite 4 !" />
+                </a>
+                <h5 class="mt-1">Zombie army 4 Dead war </br>Edition Collector</h5>
+                <span class="font-italic">Action </span>
+                <span>/ Ref : PS4009</span>
+                <span>- 99,90 €</span>
+                <button dataImg="VPS4006" dataTitle="Zombie army 4 Dead war" dataRef="PS4006" dataPrice="99.90"
+                type="button" class="btn buy btn-info mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+          </div>
+          <!-- WARNING: 3e ligne -->
+          <div class="row">
+            <div id="ps7" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalPS7" href="#modalPS7">
+                  <img src="assets/img/Consoles/PS4007.jpg" alt="PS4Kakarot.jpg" style="width:100%"
+                  title="Revivez l'histoire de Goku dans Dragon Ball Z : Kakarot ! Menez des combats
+                  épiques et découvrez la vie dans le monde de Dragon Ball Z : combattez, pêchez,
+                  mangez et entraînez-vous avec Goku." />
+                </a>
+                <h5 class="mt-1">Dragon ball Z kakarot </br>Edition Collector</h5>
+                <span class="font-italic">Combat </span>
+                <span>/ Ref : PS4007</span>
+                <span>- 229,90 €</span>
+                <button dataImg="VPS4007" dataTitle="Dragon ball Z kakarot" dataRef="PS4007" dataPrice="229.90"
+                type="button" class="btn buy btn-info mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="ps8" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalPS8" href="#modalPS8">
+                  <img src="assets/img/Consoles/PS4008.jpg" alt="PS4Battlefield1.jpg" style="width:100%"
+                  title="Prenez part à des batailles épiques se déroulant dans les rues confinées
+                  d'une ville française assiégée, dans les vastes espaces ouverts des Alpes italiennes
+                  ou sur les dunes du désert d'Arabie." />
+                </a>
+                <h5 class="mt-1">Battlefield 1 </br>Edition Collector</h5>
+                <span class="font-italic">FPS </span>
+                <span>/ Ref : PS4008</span>
+                <span>- 56,80 €</span>
+                <button dataImg="VPS4008" dataTitle="Battlefield 1" dataRef="PS4008" dataPrice="56.80"
+                type="button" class="btn buy btn-info mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="ps9" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalPS9" href="#modalPS9">
+                  <img src="assets/img/Consoles/PS4006.jpg" alt="PS4SoulCalibur6.jpg" style="width:100%"
+                  title='Aiguisez vos lames, enfilez votre armure et préparez-vous au combat. SoulCalibur,
+                  fer de lance des jeux de combat en 3D à l arme blanche, est de retour !' />
+                </a>
+                <h5 class="mt-1">Soulcalibur VI </br>Edition Collector</h5>
+                <span class="font-italic">Combat </span>
+                <span>/ Ref : PS4003</span>
+                <span>- 99,90 €</span>
+                <button dataImg="VPS4009" dataTitle="Soulcalibur VI" dataRef="PS4009" dataPrice="99.90"
+                type="button" class="btn buy btn-info mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+          </div>
+          <div id="modalPS1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalPS1Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalPS1Label">The Last of Us Part II</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Au centre de l'intrigue du premier volet, nous retrouvons à nouveau Joel et Ellie plus déterminée que jamais à éradiquer les infectés jusqu'au dernier. Se déroulant à nouveau dans un monde post apocalyptique, le duo toujours aussi soudé devra prendre les décisions qui s'imposent afin de survivre un seul jour de plus à cette pandémie.</p>
+                          <a class="mt-5" href="assets/img/Consoles/PS4001.jpg" target="_blank"><img src="assets/img/Consoles/PS4001.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Sony Naughty Dog</li>
+                            <li>29 mai 2020</li>
+                            <li>+18 ans</li>
+                            <li>Aventure</li>
+                            <li>Post-apocalyptique | Horreur</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalPS2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalPS2Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalPS2Label">Death Stranding</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Death Stranding est un jeu d'action dans lequel la mort fait partie intégrante du gameplay. La mort est un des thèmes principaux, et les développeurs ont fait en sorte que les joueurs ne la voient pas comme une fin. L'histoire s'annonce sombre dans cet univers futuriste et fantastique.</p>
+                          <a class="mt-5" href="assets/img/Consoles/PS4002.jpg" target="_blank"><img src="assets/img/Consoles/PS4002.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Kojima Productions</li>
+                            <li>08 janvier 2020</li>
+                            <li>+18 ans</li>
+                            <li>Aventure</li>
+                            <li>Post-apocalypse | Open-world</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalPS3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalPS3Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalPS3Label">Conan Exiles</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Conan Exiles est un jeu d'action et de survie dans lequel vous évoluez dans l'univers de Conan le Barbare. Vous commencez votre aventure sans aucun équipement et c'est à vous de forger votre propre histoire en fabriquant armes et armures afin de construire de gigantesques forteresses ou villes.</p>
+                          <a class="mt-5" href="assets/img/Consoles/PS4003.jpg" target="_blank"><img src="assets/img/Consoles/PS4003.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Funcom</li>
+                            <li>08 mai 2020</li>
+                            <li>+18 ans</li>
+                            <li>Aventure</li>
+                            <li>Survie | Conan le barbare</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalPS4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalPS4Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalPS4Label">Yakuza 6: The song of life</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">On retrouve Kazuma, qui après avoir apprit qu'Haruka eu été gravement blessé, va tenter de l'aider et de trouver des réponses sur son agression. Pour cela, il va se rendre à Hiroshima, dernier endroit dans lequel s'est rendu la jeune fille. En plus de cela, des problèmes au sein du clan Tojo refont surface...</p>
+                          <a class="mt-5" href="assets/img/Consoles/PS4004.jpg" target="_blank"><img src="assets/img/Consoles/PS4004.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Sega | Yakuza Studio</li>
+                            <li>17 avr. 2020</li>
+                            <li>+18 ans</li>
+                            <li>Action</li>
+                            <li>Guerre de gangs | Mafia</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalPS5" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalPS5Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalPS5Label">God of War</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Dans ce nouvel épisode de God Of War, le héros évoluera dans un monde aux inspirations nordiques, très forestier et montagneux. Dans ce beat-them-all, un enfant accompagnera le héros principal, pouvant apprendre des actions du joueur, et même gagner de l'expérience.</p>
+                          <a class="mt-5" href="assets/img/Consoles/PS4005.jpg" target="_blank"><img src="assets/img/Consoles/PS4005.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Sony Computer Entertainment</li>
+                            <li>20 avr. 2020</li>
+                            <li>+18 ans</li>
+                            <li>Action</li>
+                            <li>Historique | Nordique</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalPS6" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalPS6Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalPS6Label">Zombie Army 4 Dead war</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Zombie Army 4 : Dead War est la quatrième mouture du spin-off de Sniper Elite consacré aux nazis zombies. Les derniers opus vous proposaient une campagne en coop pour mettre à mal la domination zombie et nazie.</p>
+                          <a class="mt-5" href="assets/img/Consoles/PS4006.jpg" target="_blank"><img src="assets/img/Consoles/PS4006.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Rebellion</li>
+                            <li>04 février 2020</li>
+                            <li>+18 ans</li>
+                            <li>Action</li>
+                            <li>Horreur | Gore</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalPS7" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalPS7Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalPS7Label">Dragon ball Z kakarot</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Dragon Ball Z est l'adaptation sur Super Nintendo du célèbre manga d'Akira Toriyama. Vous pouvez combattre en un contre un avec les personnages des sagas Freezer et Cell. Les coups sont variés et fidèles à Dragon Ball Z. Les animations avant et après les combats permettent aux joueurs de s'imprégner un peu plus de l'univers du manga.</p>
+                          <a class="mt-5" href="assets/img/Consoles/PS4007.jpg" target="_blank"><img src="assets/img/Consoles/PS4007.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Bandai</li>
+                            <li>05 juin 2020</li>
+                            <li>+12 ans</li>
+                            <li>Combat</li>
+                            <li>Animation | Mangas</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalPS8" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalPS8Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalPS8Label">Battlefield 1</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Nouvel opus pour la célèbre franchise de FPS, et après plusieurs années de conflits contemporains, Battlefield 1 plonge les joueurs dans la première Guerre Mondiale. Fidèle à ses racines, cet épisode proposera une campagne solo et un mode multijoueur sur des cartes variées et destructibles.</p>
+                          <a class="mt-5" href="assets/img/Consoles/PS4008.jpg" target="_blank"><img src="assets/img/Consoles/PS4008.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Dice Electronic Arts</li>
+                            <li>21 oct. 2020</li>
+                            <li>+18 ans</li>
+                            <li>FPS</li>
+                            <li>Guerre | 1ère Guerre Mondiale</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalPS9" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalPS9Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalPS9Label">Soulcalibur VI</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">SoulCalibur VI est un jeu de combat qui prend place en 1586. Vous pourrez jouer de très nombreux personnages à travers des combats sans pitié. Cet épisode introduit le Reversal Edge, qui est une technique autant offensive que défensive, permettant de bloquer des attaques.</p>
+                          <a class="mt-5" href="assets/img/Consoles/PS4O009.jpg" target="_blank"><img src="assets/img/Consoles/PS4009.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Bandai Namco</li>
+                            <li>19 octobre 2020</li>
+                            <li>+18 ans</li>
+                            <li>Combat</li>
+                            <li>Fantastique</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- WARNING: 3e ARTICLE : SWITCH -->
+        <article id="switchGame" class="col-9 mt-5">
+          <div class="row">
+            <div id="sw1" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalSW1" href="#modalSW1">
+                  <img src="assets/img/Consoles/SW001.jpg" alt="SWD&DUltimateCollection.jpg" style="width:100%"
+                  title="regroupe Baldur's Gate 1 & 2, Neverwinter Nights et Planescape Tourment." />
+                </a>
+                <h5 class="mt-1">Dungeons & Dragons </br>Edition Ultimate</h5>
+                <span class="font-italic">RPG </span>
+                <span>/ Ref : SW001</span>
+                <span>- 219,90 €</span>
+                <button dataImg="VSW001" dataTitle="Dungeons & Dragons" dataRef="SW001" dataPrice="219.90"
+                type="button" class="btn buy btn-danger mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="sw2" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalSW2" href="#modalSW2">
+                  <img src="assets/img/Consoles/SW002.jpg" alt="SWValkyriaChronicle4.jpg" style="width:100%"
+                  title="Valkyria Chronicles 4 se déroule durant la même période que le premier
+                  Valkyria Chronicles, mais s’intéresse à l’Escadron E de la Fédération.
+                  Le commandant Claude Wallace et ses amis d’enfance se battent pour leur liberté dans
+                  une guerre qui semble perdue d’avance." />
+                </a>
+                <h5 class="mt-1">Valkyria chronicles 4 </br>Edition Memoirs from battle</h5>
+                <span class="font-italic">RPG </span>
+                <span>/ Ref : SW002</span>
+                <span>- 99,90 €</span>
+                <button dataImg="VSW002" dataTitle="Valkyria chronicles 4" dataRef="SW002" dataPrice="99.90"
+                type="button" class="btn buy btn-danger mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="sw3" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalSW3" href="#modalSW3">
+                  <img src="assets/img/Consoles/SW003.jpg" alt="SWOctopathTraveler.jpg" style="width:100%"
+                  title="Huit voyageurs. Huit histoires. Explorez un monde de fantasy totalement inédit dans
+                  OCTOPATH TRAVELER, un RPG captivant sur Nintendo Switch signé des créateurs de Bravely Default." />
+                </a>
+                <h5 class="mt-1">Octopath Traveler </br>Edition Trésors du voyageur</h5>
+                <span class="font-italic">RPG </span>
+                <span>/ Ref : XBO003</span>
+                <span>- 199,90 €</span>
+                <button dataImg="VSW003" dataTitle="Octopath Traveler" dataRef="SW003" dataPrice="199.90"
+                type="button" class="btn buy btn-danger mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+          </div>
+          <!-- WARNING: 2e ligne -->
+          <div class="row">
+            <div id="sw4" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalSW4" href="#modalSW4">
+                  <img src="assets/img/Consoles/SW004.jpg" alt="SWBayonetta2.jpg" style="width:100%"
+                  title="Avec cette suite fracassante du jeu d'action Bayonetta acclamé par la critique,
+                  les joueurs seront collés à leur fauteuil du début à la fin.
+                  Ce jeu à l'action effrénée renaît sur Nintendo Switch et vous fera combattre dans des
+                  batailles épiques à couper le souffle." />
+                </a>
+                <h5 class="mt-1">Bayonetta 2 </br>Edition Collector</h5>
+                <span class="font-italic">Action </span>
+                <span>/ Ref : SW004</span>
+                <span>- 49,90 €</span>
+                <button dataImg="VSW004" dataTitle="Bayonetta 2" dataRef="SW004" dataPrice="49.90"
+                type="button" class="btn buy btn-danger mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="sw5" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalSW5" href="#modalSW5">
+                  <img src="assets/img/Consoles/SW005.jpg" alt="SWAstralChain.jpg" style="width:100%"
+                  title="ASTRAL CHAIN™, un tout nouveau jeu d'action signé PlatinumGames,
+                  sortira en exclusivité sur Nintendo Switch ! En tant que membre d'une unité spéciale
+                  de la police, votre mission consiste à éliminer de mystérieuses créatures d'apparence
+                  extraterrestre en passe d'envahir le monde." />
+                </a>
+                <h5 class="mt-1">Astral Chain </br>Collector’s Edition</h5>
+                <span class="font-italic">Action </span>
+                <span>/ Ref : SW005</span>
+                <span>- 169,90 €</span>
+                <button dataImg="VSW005" dataTitle="Astral Chain" dataRef="SW005" dataPrice="169.90"
+                type="button" class="btn buy btn-danger mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="sw6" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalSW6" href="#modalSW6">
+                  <img src="assets/img/Consoles/SW006.jpg" alt="SWHollowKnight.jpg" style="width:100%"
+                  title="Plongez dans un magnifique monde en ruines rempli d’insectes et de héros.
+                  Sous la ville de Dirtmouth, en proie à la désolation, dort un ancien royaume oublié.
+                  Beaucoup sont attirés sous la surface à la recherche de richesses, de gloire ou de
+                  réponses à des secrets ancestraux." />
+                </a>
+                <h5 class="mt-1">Hollow Knight </br>Edition Collector</h5>
+                <span class="font-italic">Action </span>
+                <span>/ Ref : SW006</span>
+                <span>- 199,99 €</span>
+                <button dataImg="VSW006" dataTitle="Hollow Knight" dataRef="SW006" dataPrice="199.99"
+                type="button" class="btn buy btn-danger mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+          </div>
+          <!-- WARNING: 3e ligne -->
+          <div class="row">
+            <div id="sw7" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalSW7" href="#modalSW7">
+                  <img src="assets/img/Consoles/SW007.jpg" alt="SWTLOZBOTW.jpg" style="width:100%"
+                  title="Voyagez à travers champs, traversez des forêts et grimpez sur des sommets
+                  dans votre périple où vous explorez le royaume d'Hyrule en ruines à travers
+                  cette aventure à ciel ouvert." />
+                </a>
+                <h5 class="mt-1">Zelda Breath of the Wild </br>Edition Collector limitée</h5>
+                <span class="font-italic">Aventure </span>
+                <span>/ Ref : SW007</span>
+                <span>- 189,90 €</span>
+                <button dataImg="VSW007" dataTitle="Zelda Breath of the Wild" dataRef="SW007" dataPrice="189.90"
+                type="button" class="btn buy btn-danger mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="sw8" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalSW8" href="#modalSW8">
+                  <img src="assets/img/Consoles/SW008.jpg" alt="SWFireEmblem3Houses.jpg" style="width:100%"
+                  title="Fire Emblem: Three Houses se déroule à Fódlan, une contrée où l'Église de Seiros
+                  exerce une grande influence sur ses terres et ses habitants. Dans la peu du personnage principal,
+                  vous devrez non seulement combattre sur le champ de bataille mais également vous déplacer librement pour interagir avec d'autres personnages afin de tisser des liens d'amitié et de réunir des informations utiles." />
+                </a>
+                <h5 class="mt-1">Fire Emblem Three Houses </br>Edition Collector limitée</h5>
+                <span class="font-italic">Stratégie </span>
+                <span>/ Ref : SW008</span>
+                <span>- 136,90 €</span>
+                <button dataImg="VSW008" dataTitle="Fire Emblem Three Houses" dataRef="SW008" dataPrice="136.90"
+                type="button" class="btn buy btn-danger mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="sw9" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalSW9" href="#modalSW9">
+                  <img src="assets/img/Consoles/SW009.jpg" alt="SWLinksAwakening.jpg" style="width:100%"
+                  title="Le classique de Game Boy s’offre une nouvelle jeunesse sur Nintendo Switch,
+                  dans une version entièrement retravaillée, avec un style graphique unique,
+                  qui séduira aussi bien les fans de la série que les nouveaux joueurs." />
+                </a>
+                <h5 class="mt-1">Zelda Link’s Awakening </br>Edition Collector limitée</h5>
+                <span class="font-italic">Aventure </span>
+                <span>/ Ref : SW009</span>
+                <span>- 117,60 €</span>
+                <button dataImg="VSW009" dataTitle="Zelda Link’s Awakening" dataRef="SW009" dataPrice="117.60"
+                type="button" class="btn buy btn-danger mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+          </div>
+          <div id="modalSW1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalSW1Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalSW1Label">Ultimate Dungeons & Dragons</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Ultimate D&D sur PC est un pack regroupant pas moins de huit jeux sous licence Donjons et Dragons. Retrouvez donc sur 17 CD : Neverwinter Nights, Neverwinter Nights : Shadows of the Undrentide, Neverwinter Nights : Hordes of the Underdark, Dragonshard, Baldur's Gate, Baldur's Gate : Tales of the Sword Coast, Baldur's Gate 2 : Shadows of Amn, Baldur's Gate : Throne of Bhaal, Demon Stone et Icewind Dale.</p>
+                          <a class="mt-5" href="assets/img/Consoles/SW001.jpg" target="_blank"><img src="assets/img/Consoles/SW001.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Atari</li>
+                            <li>03 novembre 2020</li>
+                            <li>+16 ans</li>
+                            <li>RPG</li>
+                            <li>Compilation</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalSW2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalSW2Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalSW2Label">Valkyria chronicles 4</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Le continent imaginaire d'Europa est pris dans les flammes de la seconde guerre européenne entre la Fédération Atlantique et l'Alliance Impériale Autocratique de l'Est. Alors que la victoire semble de plus en plus compromise pour la Fédération, cette dernière lance l'Opération Croix du Nord.</p>
+                          <a class="mt-5" href="assets/img/Consoles/SW002.jpg" target="_blank"><img src="assets/img/Consoles/SW002.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Sega</li>
+                            <li>25 septembre 2020</li>
+                            <li>+12 ans</li>
+                            <li>FPS</li>
+                            <li>Guerre</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalSW3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalSW3Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalSW3Label">Octopath Traveler</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Octopath Traveler est un RPG développé par Square Enix en HD-2D. Vous pourrez choisir votre personnage parmi 8 présents, chacun ayant ses propres capacités, mais aussi ses propres objectifs, offrant une histoire différente.</p>
+                          <a class="mt-5" href="assets/img/Consoles/SW003.jpg" target="_blank"><img src="assets/img/Consoles/SW003.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Square Enix</li>
+                            <li>13 juillet 2020</li>
+                            <li>+12 ans</li>
+                            <li>RPG</li>
+                            <li>Fantastique | 2D</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalSW4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalSW4Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalSW4Label">Bayonetta 2</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Suite du premier opus du même nom, Bayonetta 2 est un jeu de combat et d'action dans lequel le joueur incarne une puissante et séduisante sorcière. Le jeu propose diverses situations de combat toutes plus rocambolesques les unes que les autres, ainsi que des coups de grâces spectaculaires.</p>
+                          <a class="mt-5" href="assets/img/Consoles/SW004.jpg" target="_blank"><img src="assets/img/Consoles/SW004.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>PlatinumGames Nintendo</li>
+                            <li>24 octobre 2020</li>
+                            <li>+18 ans</li>
+                            <li>Action</li>
+                            <li>Fantastique | Gothique</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalSW5" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalSW5Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalSW5Label">Astral Chain</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Astral Chain est un jeu d'action développé par PlatinumGames et édité par Nintendo. Le jeu met en scène une unité de police appelée "Neuron", qui a pour rôle de lutter contre de mystérieuses créatures extraterrestres en passe d'envahir le monde et la ville d'Ark. En réponse, l'humanité a créé une arme spéciale baptisée "Légion", qui fait office de partenaire et vous accompagne dans vos investigations ainsi que dans les affrontements.</p>
+                          <a class="mt-5" href="assets/img/Consoles/SW005.jpg" target="_blank"><img src="assets/img/Consoles/SW005.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Nintendo | PlatinumGames</li>
+                            <li>30 août 2020</li>
+                            <li>+12 ans</li>
+                            <li>Action</li>
+                            <li>Police | Extraterrestres</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalSW6" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalSW6Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalSW6Label">Hollow Knight</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Hollow Knight est un jeu d'aventure et d'exploration qui vous plonge dans un vaste royaume en ruine. Dans ce jeu, résolument 2D, explorez des cavernes lugubres, affrontez de terribles créatures et devenez ami avec d'étranges insectes. Forgez votre propre chemin et explorez ce royaume peuplé de héros et d'insectes.</p>
+                          <a class="mt-5" href="assets/img/Consoles/SW006.jpg" target="_blank"><img src="assets/img/Consoles/SW006.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Team Cherry</li>
+                            <li>24 février 2020</li>
+                            <li>+3 ans</li>
+                            <li>Action</li>
+                            <li>Heroic Fantasy</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalSW7" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalSW7Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalSW7Label">Zelda Breath of the Wild</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">SoulCalibur VI est un jeu de combat qui prend place en 1586. Vous pourrez jouer de très nombreux personnages à travers des combats sans pitié. Cet épisode introduit le Reversal Edge, qui est une technique autant offensive que défensive, permettant de bloquer des attaques.</p>
+                          <a class="mt-5" href="assets/img/Consoles/SW007.jpg" target="_blank"><img src="assets/img/Consoles/SW007.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Nintendo</li>
+                            <li>03 mars 2020</li>
+                            <li>+12 ans</li>
+                            <li>Aventure</li>
+                            <li>Heroic Fantasy</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalSW8" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalSW8Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalSWLabel">Fire Emblem Three Houses</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Fire Emblem Three Houses est une nouvelle aventure pour la saga de RPG tactique de Nintendo, Fire Emblem. Le jeu prend place dans le monde de Foldan, un pays où la communauté de Seiros à le pouvoir. Participez à des champs de batailles et formez des liens avec d'autres personnages.</p>
+                          <a class="mt-5" href="assets/img/Consoles/SW008.jpg" target="_blank"><img src="assets/img/Consoles/SW008.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Nintendo | Koei Tecmo</li>
+                            <li>26 juilet 2020</li>
+                            <li>+12 ans</li>
+                            <li>Stratégie</li>
+                            <li>Heroic fantasy</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalSW9" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalSW9Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalSW9Label">Zelda Link’s Awakening</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">The Legend of Zelda : Link's Awakening (2019) est un remake de l'épisode culte de la saga paru en 1993 sur Game Boy. Il est cette fois-ci question d'une refonte totale du quatrième opus de la série, dans lequel nous suivons Link, échoué sur l'île mystérieuse de Cocolint.</p>
+                          <a class="mt-5" href="assets/img/Consoles/SW009.jpg" target="_blank"><img src="assets/img/Consoles/SW009.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Nintendo</li>
+                            <li>20 septembre 2020</li>
+                            <li>+12 ans</li>
+                            <li>Aventure</li>
+                            <li>Heroic fantasy</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- WARNING: 4e ARTICLE : PC -->
+        <article id="pcGame" class="col-9 mt-5">
+          <div class="row">
+            <div id="pc1" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalPC1" href="#modalPC1">
+                  <img src="assets/img/Consoles/PC001.jpg" alt="PCPillarsOfEternity2.jpg" style="width:100%" />
+                </a>
+                <h5 class="mt-1">Ni no kuni 2 </br>Edition King's</h5>
+                <span class="font-italic">RPG </span>
+                <span>/ Ref : PC001</span>
+                <span>69,90 €</span>
+                <button dataImg="VPC001" dataTitle="Destroy all humans DNA" dataRef="PC001" dataPrice="69.90"
+                type="button" class="btn buy btn-warning mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="pc2" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalPC2" href="#modalPC2">
+                  <img src="assets/img/Consoles/PC002.jpg" alt="PCBioMutant.jpg" style="width:100%" />
+                </a>
+                <h5 class="mt-1">Biomutant </br>Edition Atomic</h5>
+                <span class="font-italic">RPG </span>
+                <span>/ Ref : PC002</span>
+                <span>389,90 €</span>
+                <button dataImg="VPC002" dataTitle="Biomutant" dataRef="PC002" dataPrice="389.90"
+                type="button" class="btn buy btn-warning mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="pc3" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalPC3" href="#modalPC3">
+                  <img src="assets/img/Consoles/PC003.jpg" alt="PCPillarsOfEternity2.jpg" style="width:100%" />
+                </a>
+                <h5 class="mt-1">Pillars of eternity 2 Deadfire </br>Edition Obsidian</h5>
+                <span class="font-italic">RPG </span>
+                <span>/ Ref : PC003</span>
+                <span>89,90 €</span>
+                <button dataImg="VPC003" dataTitle="Pillars of eternity 2 Deadfire" dataRef="PC001" dataPrice="89.90"
+                type="button" class="btn buy btn-warning mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+          </div>
+          <!-- WARNING: 2e ligne -->
+          <div class="row">
+            <div id="pc4" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalPC4" href="#modalPC4">
+                  <img src="assets/img/Consoles/PC004.jpg" alt="PCCyberpunk.jpg" style="width:100%" />
+                </a>
+                <h5 class="mt-1">Cyberpunk 2077 </br>Edition Collector</h5>
+                <span class="font-italic">Action </span>
+                <span>/ Ref : PC004</span>
+                <span>219,90 €</span>
+                <button dataImg="VPC004" dataTitle="Cyberppunk 2077" dataRef="PC004" dataPrice="219.90"
+                type="button" class="btn buy btn-warning mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="pc5" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalPC5" href="#modalPC5">
+                  <img src="assets/img/Consoles/PC005.jpg" alt="PCWitcher3.jpg" style="width:100%" />
+                </a>
+                <h5 class="mt-1">The Witcher 3 Wild Hunt </br>Edition Collector</h5>
+                <span class="font-italic">Aventure </span>
+                <span>/ Ref : PC005</span>
+                <span>139,90 €</span>
+                <button dataImg="VPC005" dataTitle="The Witcher 3 Wild Hunt" dataRef="PC005" dataPrice="139.90"
+                type="button" class="btn buy btn-warning mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="pc6" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalPC6" href="#modalPC6">
+                  <img src="assets/img/Consoles/PC006.jpg" alt="PCDestroyAllHumans.jpg" style="width:100%" />
+                </a>
+                <h5 class="mt-1">Destroy all humans </br>Edition DNA</h5>
+                <span class="font-italic">Action </span>
+                <span>/ Ref : PC006</span>
+                <span>139,90 €</span>
+                <button dataImg="VPC006" dataTitle="Destroy all humans DNA" dataRef="PC006" dataPrice="139.90"
+                type="button" class="btn buy btn-warning mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+          </div>
+          <!-- WARNING: 3e ligne -->
+          <div class="row">
+            <div id="pc7" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalPC7" href="#modalPC7">
+                  <img src="assets/img/Consoles/PC007.jpg" alt="PCNFSHeat.jpg" style="width:100%" />
+                </a>
+                <h5 class="mt-1">Need for Speed Heat </br>Edition Ultimate</h5>
+                <span class="font-italic">Course </span>
+                <span>/ Ref : PC007</span>
+                <span>49,90 €</span>
+                <button dataImg="VPC007" dataTitle="Need for Speed Heat" dataRef="PC007" dataPrice="49.90"
+                type="button" class="btn buy btn-warning mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="pc8" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalPC8" href="#modalPC8">
+                  <img src="assets/img/Consoles/PC008.jpg" alt="PCOverwatch.jpg" style="width:100%" />
+                </a>
+                <h5 class="mt-1">Overwatch </br>Edition Collector</h5>
+                <span class="font-italic">FPS </span>
+                <span>/ Ref : PC008</span>
+                <span>64,90 €</span>
+                <button dataImg="VPC008" dataTitle="Overwatch" dataRef="PC008" dataPrice="64.90"
+                type="button" class="btn buy btn-warning mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+            <div id="pc9" class="col-lg-4 my-2">
+              <div class="thumbnail">
+                <a data-toggle="modal" data-target="#modalPC9" href="#modalPC9">
+                  <img src="assets/img/Consoles/PC009.jpg" alt="PCAnno1800.jpg" style="width:100%" />
+                </a>
+                <h5 class="mt-1">ANNO 1800 </br>Edition Pionier</h5>
+                <span class="font-italic">Stratégie </span>
+                <span>/ Ref : PC009</span>
+                <span>89,90 €</span>
+                <button dataImg="VPC009" dataTitle="ANNO 1800" dataRef="PC009" dataPrice="89.90"
+                type="button" class="btn buy btn-warning mt-2">Ajouter au panier</button>
+              </div>
+            </div>
+          </div>
+          <div id="modalPC1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalPC1Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalPC1Label">Ni no kuni 2</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Ni no Kuni 2 : L'avènement d'un nouveau Royaume est un RPG qui prend place des centaines d'années après les événements du premier. Deux nouvelles tribus apparaissent : les chats et les souris. Cette dernière prend le royaume grâce à un coup d'état et votre but sera de libérer ce pays.</p>
+                          <a class="mt-5" href="assets/img/Consoles/PC001.jpg" target="_blank"><img src="assets/img/Consoles/PC001.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Level-5</li>
+                            <li>23 mars 2020</li>
+                            <li>+12 ans</li>
+                            <li>RPG</li>
+                            <li>Fantastique</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalPC2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalPC2Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalPC2Label">Biomutant</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Biomutant est un RPG open-world développé par Experiment 101, studio créé par des anciens de Just Cause, et édité par THQ Nordic. L'action se déroule dans un univers post-apocalyptique et est décrit comme "une fable kung fu". Le héros, qui ressemble vaguement à un certain Rocket Raccoon, peut alterner combat au corps à corps et combat à distance, piloter des véhicules, crafter de l'équipement et personnaliser ses capacités.</p>
+                          <a class="mt-5" href="assets/img/Consoles/PC002.jpg" target="_blank"><img src="assets/img/Consoles/PC002.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Experiment 101 | THQ Nordic</li>
+                            <li>4ème trimestre 2020</li>
+                            <li>+12 ans</li>
+                            <li>RPG</li>
+                            <li>Post-apocalypse \ Fable</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalPC3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalPC3Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalPC3Label">Pillars of eternity 2 Deadfire</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Pillars of Eternity 2 : Deadfire est un RPG développé par Obsidian Entertainment. Suite de Pillars of Eternity, vous y poursuivez un dieu sur terre comme sur mer. Pour cela vous disposez d'un navire pour voguer à travers les vastes régions de l'archipel inexploré de Deadfire.</p>
+                          <a class="mt-5" href="assets/img/Consoles/PC003.jpg" target="_blank"><img src="assets/img/Consoles/PC003.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Versus Evil | Obsidian</li>
+                            <li>08 mai 2020</li>
+                            <li>+16 ans</li>
+                            <li>RPG</li>
+                            <li>Mythologie | Voyage</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalPC4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalPC4Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalPC4Label">Cyberpunk 2077</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Cyberpunk 2077 est un jeu de rôle futuriste et dystopique inspiré du jeu de rôle papier du même nom. Dans un monde devenu indissociable de la cybernétique, l'indépendance des robots humanoïdes pose quelques problèmes...</p>
+                          <a class="mt-5" href="assets/img/Consoles/PC004.jpg" target="_blank"><img src="assets/img/Consoles/PC004.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>CD Projekt RED</li>
+                            <li>16 avril 2020</li>
+                            <li>+18 ans</li>
+                            <li>Action</li>
+                            <li>Cyberpunk | Robots</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalPC5" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalPC5Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalPC5Label">The Witcher 3 Wild Hunt</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">The Witcher 3 : Wild Hunt est un Action-RPG se déroulant dans un monde ouvert. Troisième épisode de la série du même nom, inspirée des livres du polonais Andrzej Sapkowski, cet opus relate la fin de l'histoire de Geralt de Riv.</p>
+                          <a class="mt-5" href="assets/img/Consoles/PC005.jpg" target="_blank"><img src="assets/img/Consoles/PC005.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>CD Projekt RED</li>
+                            <li>19 mai 2020</li>
+                            <li>+18 ans</li>
+                            <li>Aventure</li>
+                            <li>Fantastique | Heroic Fantasy</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalPC6" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalPC6Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalPC6Label">Destroy all humans</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Destroy All Humans! - Remake est la version remastérisé de Destroy All Humans! sorti en 2005. Ce jeu est un jeu humoristique. L'objectif est d'exterminer les humains avec des armes loufoques et d'absorber le cerveau de vos victimes.</p>
+                          <a class="mt-5" href="assets/img/Consoles/PC006.jpg" target="_blank"><img src="assets/img/Consoles/PC006.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>THQ Nordic</li>
+                            <li>2eme trimestre 2020</li>
+                            <li>+12 ans</li>
+                            <li>Action</li>
+                            <li>Guerre | Extraterrestres</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalPC7" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalPC7Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalPC7Label">Need for Speed Heat</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Need For Speed Heat est le nouvel opus de la série mythique Need For Speed. Foncez dans les rues de Palm City, le jour vous participez à une compétition automobile officielle et la nuit les courses urbaines illégale font vrombir les moteurs de vos plus belles voitures.</p>
+                          <a class="mt-5" href="assets/img/Consoles/PC007.jpg" target="_blank"><img src="assets/img/Consoles/PC007.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Electronic Arts</li>
+                            <li>08 novembre 2020</li>
+                            <li>+12 ans</li>
+                            <li>Course</li>
+                            <li>Tuning | Course poursuite</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalPC8" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalPC8Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalPC8Label">Overwatch</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Jeu d'action en vue à la première personne, Overwatch prend place dans un futur proche, en 2074 pour être exact. Dans des parties en 6 contre 6, le joueur incarne un héros parmi la palette proposée. Chaque personnage a des caractéristiques et des capacités particulières et un rôle défini parmi Attaque, Défense, Tank et Soutien.</p>
+                          <a class="mt-5" href="assets/img/Consoles/PC008.jpg" target="_blank"><img src="assets/img/Consoles/PC008.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Activision Blizzard</li>
+                            <li>24 mai 2020</li>
+                            <li>+12 ans</li>
+                            <li>FPS</li>
+                            <li>Cyberpunk</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modalPC9" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalPC9Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalPC9Label">ANNO 1800</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-md-8 border-right border-primary pr-4">
+                          <h5 class="text-primary">Description :</h5>
+                          <p class="mt-3 mb-4">Anno 1800 sur PC est un jeu de gestion qui se déroule au 19ème siècle, à l'aube de l'ère industrielle. Comme d'habitude, le jeu propose de mettre vos talents de dirigeant à l'épreuve dans la construction de métropoles pour par la suite explorer et conquérir des terres nouvelles.</p>
+                          <a class="mt-5" href="assets/img/Consoles/PC009.jpg" target="_blank"><img src="assets/img/Consoles/PC009.jpg" width="20%" /></a>
+                        </div>
+                        <div class="col-md-4">
+                          <h5 class="text-center text-primary">Caractéristiques :</h5>
+                          <ul class="mt-3">
+                            <li>Ubisoft Blue Byte</li>
+                            <li>16 avril 2020</li>
+                            <li>+3 ans</li>
+                            <li>Stratégie</li>
+                            <li>Gestion | Historique</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <hr class="mt-5">
+      <div id="car3" class="carousel slide mt-5" data-interval="4000" data-ride="carousel">
+        <h3 class="text-center mb-4 ">Tout notre Catalogue</h3>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarXBO001.jpg" alt="1 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPS4001.jpg" alt="2 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarSW001.jpg" alt="3 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPC001.jpg" alt="3 slide"></div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarXBO002.jpg" alt="4 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPS4002.jpg" alt="5 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarSW002.jpg" alt="6 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPC002.jpg" alt="6 slide"></div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarXBO003.jpg" alt="4 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPS4003.jpg" alt="5 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarSW003.jpg" alt="6 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPC003.jpg" alt="6 slide"></div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarXBO004.jpg" alt="4 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPS4004.jpg" alt="5 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarSW004.jpg" alt="6 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPC004.jpg" alt="6 slide"></div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarXBO005.jpg" alt="4 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPS4005.jpg" alt="5 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarSW005.jpg" alt="6 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPC005.jpg" alt="6 slide"></div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarXBO006.jpg" alt="4 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPS4006.jpg" alt="5 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarSW006.jpg" alt="6 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPC006.jpg" alt="6 slide"></div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarXBO007.jpg" alt="4 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPS4007.jpg" alt="5 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarSW007.jpg" alt="6 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPC007.jpg" alt="6 slide"></div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarXBO008.jpg" alt="4 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPS4008.jpg" alt="5 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarSW008.jpg" alt="6 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPC008.jpg" alt="6 slide"></div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarXBO009.jpg" alt="4 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPS4009.jpg" alt="5 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarSW009.jpg" alt="6 slide"></div>
+              <div class="col-sm"><img class="d-block w-100" src="assets/img/carousel/CarPC009.jpg" alt="6 slide"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr id="line2" class="mt-5">
+      <div id="banner2" class="row mt-5">
+        <div class="col-lg-12">
+          <a href="https://www.weezevent.com/smash-4-glory-10" target="_blank"><img src="assets/img/Banner2.jpg" alt="XBODoomEternal.jpg" style="width:100%" /></a>
+        </div>
+      </div>
+      <footer>
+        <div class="row mt-5">
+          <div class="col-lg-12">
+            <div id="footer">
+              <p class="pt-4"><a href="assets/img/footer/footerMentionsLegales1.pdf" title="legalNotice" target="_blank">mentions légales et cookies</a></p>
+              <img src="assets/img/footer/facebook.png" alt="facebook" vspace="10" />
+              <img src="assets/img/footer/instagram.png" alt="instagram" vspace="10"/>
+              <img src="assets/img/footer/twitter.png" alt="twitter" vspace="10"/>
+              <p class="pb-4 pt-4">© Copyright 2019 - Développé par Vathana CHIV</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script src="assets/library/jquery/jquery-3.4.1.min.js"></script>
+    <script src="assets/library/bootstrap-4.3.1-dist/js/bootstrap.min.js" rel="stylesheet"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+  </html>
